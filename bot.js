@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['$help','Type $help','VM server' ];
+    var setGame = ['$help','Type $help','VM server','.help','.bc' ];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -91,6 +91,7 @@ ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي اي�
 ${prefix}inv/لدعوة البوت الى سيرفرك
 ${prefix}support/سيرفر الدعم
 ${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
+.help اوامر البرودكاست
 **
   `
 ,`
